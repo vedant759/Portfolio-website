@@ -1,0 +1,154 @@
+.home {
+  display: flex;
+  justify-content: center;
+  padding-top: 250px;
+  padding-bottom: 40px;
+}
+.curve {
+  top: -78px;
+  left: -67px;
+  position: absolute;
+  z-index: 1;
+}
+
+.home-content {
+  width: 40%;
+}
+.home-content-intro {
+  margin-left: 40px;
+  position: relative;
+}
+.home-content-intro p {
+  padding: 30px 0;
+}
+.home-content h1 {
+  position: relative;
+  z-index: 10;
+  color: #141313;
+  text-transform: uppercase;
+  font-family: var(--font-family);
+  font-size: 102px;
+  font-weight: 400;
+  width: 80%;
+  line-height: 90px;
+}
+.vedant {
+  font-weight: 700;
+}
+.home-content p {
+  font-family: IBM Plex Sans;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 700;
+}
+.home-content-btn {
+  margin: 10px 0 70px 0;
+}
+.home-content-btn button {
+  cursor: pointer;
+  transition: all ease 0.1s;
+}
+.home-content-btn button:hover {
+  scale: 1.1;
+}
+
+.home-content-btn_main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 56px;
+  width: 180px;
+  background-color: #141313;
+  color: white;
+  font-family: var(--font-family);
+  font-size: 18px;
+  border-style: none;
+}
+.home-content-btn_main-arrow {
+  background: var(--gradient-bg);
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-content-contact {
+  width: 60%;
+  gap: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 40px;
+}
+
+.home-content-contact_phone {
+  gap: 10px;
+  display: flex;
+  color: #141313;
+  font-family: IBM Plex Sans;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 700;
+}
+.home-content-contact_mail {
+  gap: 10px;
+  display: flex;
+  color: #141313;
+  font-family: IBM Plex Sans;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 700;
+}
+.home-content-contact .circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  width: 32px;
+  background-color: rgba(20, 19, 19, 0.05);
+  border-radius: 50%;
+}
+
+.home-socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 40px;
+  gap: 15px;
+}
+.home-socials a {
+  text-decoration: none;
+  color: #141313;
+}
+
+.home-socials hr {
+  height: 250px;
+  width: 2px;
+  background-color: #141313;
+  border-style: none;
+}
+.whiteCircle {
+  transform: rotate(-90deg);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid #141313;
+  cursor: pointer;
+  transition: all ease 0.1s;
+}
+.whiteCircle:hover {
+  scale: 1.2;
+}
+
+.home-me img {
+  width: 650px;
+  margin: -80px 80px 0 0;
+}

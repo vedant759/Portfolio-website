@@ -1,0 +1,60 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--navbar-color);
+  position: fixed;
+  width: 100%;
+  padding: 1rem 0;
+  z-index: 99;
+}
+
+.navbar-logo {
+  font-family: var(--heading-font);
+  color: white;
+  font-size: 1.2rem;
+  flex: 2;
+  margin-left: 2.5rem;
+  cursor: pointer;
+  transition: all ease 0.1s;
+}
+.navbar-logo:hover {
+  font-size: 1.3rem;
+}
+.navbar-links {
+  margin-right: 15rem;
+  flex: 1;
+}
+
+.navbar-links_list {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  font-family: var(--font-family);
+}
+.navbar-links_list a {
+  color: white;
+}
+.navbar-links_list a:hover {
+  color: rgb(161, 161, 161);
+}
+.navbar-links_list_items {
+  margin: 0 2rem;
+  font-size: 18px;
+}
+
+.navbar-socials {
+  margin-right: 1.5rem;
+}
+
+.icons {
+  color: white;
+  font-size: 1.5rem;
+  margin: 0 0.8rem;
+  cursor: pointer;
+  transition: all ease 0.1s;
+}
+
+.icons:hover {
+  scale: 1.2;
+}

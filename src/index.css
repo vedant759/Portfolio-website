@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=IBM+Plex+Serif:wght@700&display=swap");
+
+:root {
+  --font-family: "IBM Plex Sans", sans-serif;
+  --heading-font: "IBM Plex Serif", serif;
+  --gradient-text: linear-gradient(
+    273deg,
+    #ffb147 0%,
+    #ff6c63 52.03%,
+    #b86adf 100%
+  );
+  --color-text: #b86adf;
+  --navbar-color: #141313;
+  --gradient-bg: linear-gradient(
+    273deg,
+    #ffb147 0%,
+    #ff6c63 52.03%,
+    #b86adf 100%
+  );
+  --section-margin: 200px;
+}
