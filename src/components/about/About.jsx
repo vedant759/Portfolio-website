@@ -21,7 +21,7 @@ const About = () => {
           <div className="download-cv">
             <a
               className="view-cv"
-              href="https://drive.google.com/file/d/19mAdIVGWY3hQii6yAsjwgF2d964keEzi/view?usp=sharing"
+              href="https://drive.google.com/file/d/1pzn9nSv0q3uglE3VDzBAJYn1TUvL7tvM/view?usp=sharing"
               download
               target="-blank"
             >
